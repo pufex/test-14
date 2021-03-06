@@ -1,0 +1,144 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+*{
+    outline: none;
+}
+
+::placeholder{
+    font-family: sans-serif;
+}
+
+.link, .link:visited{
+    text-decoration: none;
+    color: #1e3799;
+    font-weight: 550;
+    font-family: inherit;
+
+    transition: color 0.2s linear;
+}
+
+.link:hover{
+    color: #4a69bd;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: #fad390;
+}
+
+.main-header{
+    font-family: sans-serif;
+}
+
+.form-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    overflow: hidden;
+    width: 500px;
+    min-height: 200px;
+
+    box-sizing: border-box;
+    padding: 10px 10px;
+
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 20%);
+    box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 20%);
+    background-color: rgb(240, 240, 240);
+}
+.input-area{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.input-general{
+    box-sizing: border-box;
+
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 50%);
+}
+
+.input-area-input{
+    flex-basis: 237px;
+    min-height: 25px;
+
+    box-sizing: border-box;
+
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 50%);
+}
+
+.textarea-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.textarea-area-input{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 200px;
+}
+
+.checkbox-area{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 5px;
+
+    font-family: sans-serif;
+    font-size: 10px;
+}
+
+.checkbox-label{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+
+    margin-bottom: 3px;
+
+    font-family: sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.btn{
+    min-width: 100px;
+    min-height: 20px;
+    font-size: 10px;
+    font-family: sans-serif;
+
+    border: none;
+    border-radius: 3px;
+    background-color: #b8e994;
+
+    transition: background-color 0.5s ease-in-out;
+}
+
+.btn:hover{
+    background-color: #82ccdd;
+}

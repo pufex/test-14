@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>test-14</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="main-header">Napisz komentarz!</h1>
+        <form action="./" method="POST" class="form-1">
+            <div class="input-area">
+                <input class="input-area-input input-general" type="text" name="nazwa" placeholder="Wprowadź nazwe użytkownika"  required>
+                <input class="input-area-input input-general" type="text" name="email" placeholder="Wprowadź adres e-mail"  required>
+            </div>
+            <div class="textarea-area">
+                <textarea class="textarea-area-input input-general" name="comment" placeholder="Napisz komentarz" required></textarea>
+            </div>
+            <div class="checkbox-area">
+                <label class="checkbox-label">
+                    <input type="checkbox" name="checkbox-2" required>
+                    *Zgadzam się z regulaminem i wszystkim co tam w nim jest.
+                </label>
+                <label class="checkbox-label">
+                    <input type="checkbox" name="checkbox-1" required>
+                    *Jestem prawdziwym patriotą godnym mojego obywatelstwa.
+                </label>
+                <label class="checkbox-label">
+                    <input type="checkbox" name="checkbox-3" required>
+                    *Jestem odpowiedzialny za mój komentarz i poniosę konsekwencję prawne!
+                </label>
+                <span>
+                    Regulamin znajdziesz  <a class="link" href="https://www.youtube.com/watch?v=F20uT-L-f08&ab_channel=FilipKwa%C5%9Bniak" target="_blank">na tej stronie</a>. Proszę, zapoznaj się w nim, bo w razie nie przestrzegania go od razu dzwonię po pałycję.
+                </span>
+            </div>
+            <div class="button-area">
+                <input class="btn" type="submit" value="Wyślij">
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
